@@ -4,22 +4,36 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es7"
     ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "removeComments": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "alwaysStrict": true,
+    "preserveConstEnums": true,
     "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": "./"
   },
   "include": [
-    "src"
+    "./src",
+    "./pages"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
