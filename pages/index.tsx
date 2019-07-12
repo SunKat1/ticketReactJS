@@ -1,4 +1,5 @@
 import * as React from 'react'
+// import '../static/initialStyleReset.css'
 
 export default class EntryComponent extends React.Component {
 
